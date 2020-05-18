@@ -1,1 +1,3 @@
 # AppliProjets
+
+J'ai créé un projet sur la version 2019 de VS, j'espère que ça posera pas trop de problèmes...

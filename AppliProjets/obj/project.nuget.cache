@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "L7qIBkdDLLjt1XZ4/su7BHhAaCdU8YHBkw4Wof7LevjFEhxY4GVuM9Zz7uNsak8tiA6b1PpYnBjVY71hKFCQyw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\eggue\\Desktop\\AppliProjets\\AppliProjets\\AppliProjets.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eggue\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\eggue\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\eggue\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\eggue\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
