@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eggue\\Desktop\\AppliProjets\\AppliProjets\\AppliProjets.csproj": {}
+    "C:\\Users\\eggue\\Documents\\Cours\\ENSC\\S6\\ProgAvancée\\AppliProjets\\AppliProjets\\AppliProjets.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eggue\\Desktop\\AppliProjets\\AppliProjets\\AppliProjets.csproj": {
+    "C:\\Users\\eggue\\Documents\\Cours\\ENSC\\S6\\ProgAvancée\\AppliProjets\\AppliProjets\\AppliProjets.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eggue\\Desktop\\AppliProjets\\AppliProjets\\AppliProjets.csproj",
+        "projectUniqueName": "C:\\Users\\eggue\\Documents\\Cours\\ENSC\\S6\\ProgAvancée\\AppliProjets\\AppliProjets\\AppliProjets.csproj",
         "projectName": "AppliProjets",
-        "projectPath": "C:\\Users\\eggue\\Desktop\\AppliProjets\\AppliProjets\\AppliProjets.csproj",
+        "projectPath": "C:\\Users\\eggue\\Documents\\Cours\\ENSC\\S6\\ProgAvancée\\AppliProjets\\AppliProjets\\AppliProjets.csproj",
         "packagesPath": "C:\\Users\\eggue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eggue\\Desktop\\AppliProjets\\AppliProjets\\obj\\",
+        "outputPath": "C:\\Users\\eggue\\Documents\\Cours\\ENSC\\S6\\ProgAvancée\\AppliProjets\\AppliProjets\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

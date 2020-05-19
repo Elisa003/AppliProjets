@@ -14,6 +14,15 @@ namespace AppliProjets
             this.duree = duree;
         }
 
+        public override string ToString()
+        {
+            string res = "Soutenance = ";
+            res += "Nom : " + nom;
+            res += ", Duree : " + duree;
+
+            return res;
+        }
+
         public override void Ajouter(object obj)
         {
             throw new NotImplementedException();

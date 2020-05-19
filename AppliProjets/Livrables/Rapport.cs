@@ -13,6 +13,14 @@ namespace AppliProjets
             this.nom = nom;
             this.nbPagesMax = nbPagesMax;
         }
+        public override string ToString()
+        {
+            string res = "Rapport = ";
+            res += "Nom : " + nom;
+            res += ", NbPagesMax : " + nbPagesMax;
+
+            return res;
+        }
 
         public override void Ajouter(object obj)
         {

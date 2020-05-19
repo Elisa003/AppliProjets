@@ -6,8 +6,6 @@ namespace AppliProjets
 {
     public class Catalogue
     {
-        // c'est moi qui ait fait tout ça ? ^^
-
         Projet[] projets;
         public Catalogue(int nbProjets)
         {
@@ -19,7 +17,7 @@ namespace AppliProjets
         {
             get {
                 foreach (Projet p in projets)
-                    if (p.Promo == promo)
+                    if (p.promo == promo)
                         return p;
                 return null;
             }

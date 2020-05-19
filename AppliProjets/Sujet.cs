@@ -9,10 +9,21 @@ namespace AppliProjets
         String intitule;
         bool impose;
 
+        public Sujet() { }
+
         public Sujet(string intitule, bool impose)
         {
             this.intitule = intitule;
             this.impose = impose;
+        }
+
+        public override string ToString()
+        {
+            string res = "Sujet = ";
+            res += "Intitule : " + intitule;
+            res += ", Impose : " + impose;
+
+            return res;
         }
 
         public void Ajouter(object obj)

@@ -12,6 +12,8 @@ namespace AppliProjets
         protected int anneeScolaire;
         protected DateTime dateDebut;
         protected int nbreEtudiants;
+        protected List<Eleve> etudiants = new List<Eleve>(); //Program.cs ne fonctionne pas avec le get et 
+        //le set mais avec cette ligne-là oui... mystère
         public Promo promo
         {
             get => default;
@@ -19,14 +21,14 @@ namespace AppliProjets
         }
         public Sujet sujet
         {
-            get => default;
+            get { return new Sujet(); }
             set { }
         }
-        public List<Eleve> etudiants
-        {
-            get => default;
-            set { }
-        }
+        //public List<Eleve> etudiants
+        //{
+        //    get { return new List<Eleve>(); }
+        //    set { }
+        //}
         public List<Matiere> matieres
         {
             get => default;
@@ -34,7 +36,7 @@ namespace AppliProjets
         }
         public List<Livrable> livrables
         {
-            get => default;
+            get { return new List<Livrable>(); }
             set { }
         }
 
@@ -63,6 +65,8 @@ namespace AppliProjets
         {
             foreach (Eleve elv in eleves)
                 etudiants.Add(elv);
+            //for (int i = 0; i < eleves.Length; i++)
+            //  etudiants.Add(eleves[i]);
         }
         public void AjouterLivrable(params Livrable[] livs)
         {

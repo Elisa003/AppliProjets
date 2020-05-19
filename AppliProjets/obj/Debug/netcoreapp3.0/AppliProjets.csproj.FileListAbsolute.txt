@@ -1,0 +1,13 @@
+C:\Users\eggue\Documents\Cours\ENSC\S6\ProgAvancée\AppliProjets\AppliProjets\obj\Debug\netcoreapp3.0\AppliProjets.csprojAssemblyReference.cache
+C:\Users\eggue\Documents\Cours\ENSC\S6\ProgAvancée\AppliProjets\AppliProjets\obj\Debug\netcoreapp3.0\AppliProjets.csproj.CoreCompileInputs.cache
+C:\Users\eggue\Documents\Cours\ENSC\S6\ProgAvancée\AppliProjets\AppliProjets\obj\Debug\netcoreapp3.0\AppliProjets.AssemblyInfoInputs.cache
+C:\Users\eggue\Documents\Cours\ENSC\S6\ProgAvancée\AppliProjets\AppliProjets\obj\Debug\netcoreapp3.0\AppliProjets.AssemblyInfo.cs
+C:\Users\eggue\Documents\Cours\ENSC\S6\ProgAvancée\AppliProjets\AppliProjets\bin\Debug\netcoreapp3.0\AppliProjets.exe
+C:\Users\eggue\Documents\Cours\ENSC\S6\ProgAvancée\AppliProjets\AppliProjets\bin\Debug\netcoreapp3.0\AppliProjets.deps.json
+C:\Users\eggue\Documents\Cours\ENSC\S6\ProgAvancée\AppliProjets\AppliProjets\bin\Debug\netcoreapp3.0\AppliProjets.runtimeconfig.json
+C:\Users\eggue\Documents\Cours\ENSC\S6\ProgAvancée\AppliProjets\AppliProjets\bin\Debug\netcoreapp3.0\AppliProjets.runtimeconfig.dev.json
+C:\Users\eggue\Documents\Cours\ENSC\S6\ProgAvancée\AppliProjets\AppliProjets\bin\Debug\netcoreapp3.0\AppliProjets.dll
+C:\Users\eggue\Documents\Cours\ENSC\S6\ProgAvancée\AppliProjets\AppliProjets\bin\Debug\netcoreapp3.0\AppliProjets.pdb
+C:\Users\eggue\Documents\Cours\ENSC\S6\ProgAvancée\AppliProjets\AppliProjets\obj\Debug\netcoreapp3.0\AppliProjets.dll
+C:\Users\eggue\Documents\Cours\ENSC\S6\ProgAvancée\AppliProjets\AppliProjets\obj\Debug\netcoreapp3.0\AppliProjets.pdb
+C:\Users\eggue\Documents\Cours\ENSC\S6\ProgAvancée\AppliProjets\AppliProjets\obj\Debug\netcoreapp3.0\AppliProjets.genruntimeconfig.cache

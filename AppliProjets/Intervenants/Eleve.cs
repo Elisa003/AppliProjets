@@ -16,6 +16,17 @@ namespace AppliProjets
             this.promo = promo;
         }
 
+
+        public override string ToString()
+        {
+            string res = "Eleve = "; 
+            res += "Nom : " + nom;
+            res += ", Prenom : " + prenom;
+            res += ", Email : " + email;
+            res += ", Promo : " + promo;
+            return res;
+        }
+
         public override void Ajouter(object obj)
         {
             throw new NotImplementedException();

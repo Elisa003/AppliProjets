@@ -16,6 +16,21 @@ namespace AppliProjets
             this.matiereEnseignee = matiereEnseignee;
         }
 
+        public override string ToString()
+        {
+            string res = "Enseignant = ";
+            res += "Nom : " + nom;
+            res += ", Prenom : " + prenom;
+            res += ", Email : " + email;
+            res += ", MatiereEnseignee : ";
+
+            foreach (Matiere mat in matiereEnseignee)
+            {
+                res += mat.codeMatiere + " " + mat.nomMatiere + ", ";
+            }
+            return res;
+        }
+
         public override void Ajouter(object obj)
         {
             throw new NotImplementedException();

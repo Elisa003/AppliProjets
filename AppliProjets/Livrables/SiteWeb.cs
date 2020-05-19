@@ -14,6 +14,15 @@ namespace AppliProjets
             this.url = url;
         }
 
+        public override string ToString()
+        {
+            string res = "SiteWeb = ";
+            res += "Nom : " + nom;
+            res += ", Url : " + url;
+
+            return res;
+        }
+
         public override void Ajouter(object obj)
         {
             throw new NotImplementedException();

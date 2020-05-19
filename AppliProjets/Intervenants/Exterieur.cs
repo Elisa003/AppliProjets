@@ -15,6 +15,16 @@ namespace AppliProjets
             this.email = email;
             this.organisation = organisation;
         }
+        public override string ToString()
+        {
+            string res = "Exterieur = ";
+            res += "Nom : " + nom;
+            res += ", Prenom : " + prenom;
+            res += ", Email : " + email;
+            res += ", Organisation : " + organisation;
+
+            return res;
+        }
 
         public override void Ajouter(object obj)
         {

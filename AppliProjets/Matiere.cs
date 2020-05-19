@@ -6,13 +6,21 @@ namespace AppliProjets
 {
     public class Matiere : IEditable
     {
-        String codeMatiere;
-        String nomMatiere;
+        internal String codeMatiere;
+        internal String nomMatiere;
 
         public Matiere(string codeMatiere, string nomMatiere)
         {
             this.codeMatiere = codeMatiere;
             this.nomMatiere = nomMatiere;
+        }
+
+        public override string ToString()
+        {
+            string res = "Matiere = ";
+            res += "CodeMatiere : " + codeMatiere;
+            res += "NomMatiere : " + nomMatiere;
+            return res;
         }
 
         public void Ajouter(object obj)

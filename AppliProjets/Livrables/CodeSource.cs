@@ -14,6 +14,15 @@ namespace AppliProjets
             this.langage = langage;
         }
 
+        public override string ToString()
+        {
+            string res = "CodeSource = ";
+            res += "Nom : " + nom;
+            res += ", Langage : " + langage;
+
+            return res;
+        }
+
         public override void Ajouter(object obj)
         {
             throw new NotImplementedException();
