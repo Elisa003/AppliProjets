@@ -10,7 +10,7 @@ namespace AppliProjets
         Intervenant client;
         Intervenant tuteur;
 
-        public Transdisciplinaire(Intervenant client, Intervenant tuteur, int anneeScolaire, DateTime dateDebut, Sujet sujet)
+        public Transdisciplinaire(Intervenant client, Intervenant tuteur, int anneeScolaire, DateTime dateDebut, Sujet sujet, int nbreEtudiants)
         {
             this.client = client;
             this.tuteur = tuteur;
@@ -19,13 +19,13 @@ namespace AppliProjets
             this.dateDebut = dateDebut;
             this.promo = Promo.premiereAnnee;
             this.sujet = sujet;
-            this.nbreEtudiants = 6;
+            this.nbreEtudiants = nbreEtudiants;
         }
 
         public override string ToString()
         {
             string res = "      Projet Transdisciplinaire = ";
-            res += "Client : " + this.client.ToString();
+            res += "\nClient : " + this.client.ToString();
             res += ", \nTuteur : " + this.tuteur.ToString();
             res += ", \nDuree : " + this.duree.ToString();
             res += ", \nAnneeScolaire : " + this.anneeScolaire.ToString();

@@ -15,8 +15,7 @@ namespace AppliProjets
             this.promo = Promo.premiereAnnee;
             this.sujet = suj;
 
-            this.livrables = new List<Livrable>(); //faire en sorte d'ajouter les livrables ici parce que
-            //c'est toujours les mêmes ?
+            this.livrables = new List<Livrable>(); 
 
             Rapport rap = new Rapport("Rapport IntroProg", 30);
             CodeSource code = new CodeSource("Projet", "C#");
@@ -27,7 +26,7 @@ namespace AppliProjets
         public override string ToString()
         {
             string res = "      Projet IntroProg = ";
-            res += ", \nDuree : " + this.duree.ToString();
+            res += "\nDuree : " + this.duree.ToString();
             res += ", \nAnneeScolaire : " + this.anneeScolaire.ToString();
             res += ", \nDateDebut : " + this.dateDebut.ToString();
             res += ", \nPromo : " + this.promo.ToString();

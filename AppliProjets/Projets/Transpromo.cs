@@ -24,8 +24,8 @@ namespace AppliProjets
 
         public override string ToString()
         {
-            string res = "Projet Transpromo = ";
-            res += "Client : " + this.client.ToString();
+            string res = "      Projet Transpromo = ";
+            res += "\nClient : " + this.client.ToString();
             res += ", \nTuteur : " + this.tuteur.ToString();
             res += ", \nDuree : " + this.duree.ToString();
             res += ", \nAnneeScolaire : " + this.anneeScolaire.ToString();

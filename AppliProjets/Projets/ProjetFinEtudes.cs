@@ -17,12 +17,16 @@ namespace AppliProjets
             this.promo = Promo.troisiemeAnnee;
             this.sujet = suj;
             this.nbreEtudiants = 1;
+            this.livrables = new List<Livrable>();
+
+            Soutenance grandOral = new Soutenance("PFE",1);
+            livrables.Add(grandOral);
         }
 
         public override string ToString()
         {
-            string res = "Projet Transpromo = ";
-            res += ", \nTuteur : " + this.tuteur.ToString();
+            string res = "      ProjetFinEtudes = ";
+            res += "\nTuteur : " + this.tuteur.ToString();
             res += ", \nDuree : " + this.duree.ToString();
             res += ", \nAnneeScolaire : " + this.anneeScolaire.ToString();
             res += ", \nDateDebut : " + this.dateDebut.ToString();

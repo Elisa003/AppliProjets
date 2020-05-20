@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Text;
 
@@ -50,44 +51,106 @@ namespace AppliProjets
             {
                 //Ecrit à la suite du fichier
                 using System.IO.StreamWriter file = new System.IO.StreamWriter("../../../../SauvProjets.txt", true);
-                file.WriteLine("*==" + this.ToString() + "==*");
+                file.WriteLine("*==\n" + this.ToString() + "\n==*\n");
+                //*== et ==* symbolisant respectivement le début et la fin d'un projet
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Une erreur est survenue au cours de la sauvegarde du projet");
                 Console.WriteLine(ex.Message);
             }
-
         }
 
-        public void RechercheParEleve(Eleve eleve)
+
+        //===== A TESTER ======
+        public string RecherchePar(Object obj) //obj représente ici un élève, un enseignant, un sujet, une année, une promo ....
+            //mais peut aussi être un mot-clé
         {
+            //supprime le fichier ResulRech s'il existe
+            if (File.Exists("../../../../ResultRech.txt"))
+            {
+                try
+                {
+                    File.Delete("../../../../ResultRech.txt");
+                }
+                catch (IOException e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            }
+
+
             Encoding encoding = Encoding.GetEncoding("iso-8859-1");
             StreamReader monStreamReader = new StreamReader("../../../../SauvProjets.txt", encoding);
 
             using StreamWriter file = new StreamWriter("../../../../ResultRech.txt", true);
 
             string line = monStreamReader.ReadLine();
+            string lineTemp = string.Empty;
+            bool peutEcrire = false;
 
             //Lecture de chaque ligne
             while(line != null)
             {
                 //Si la ligne contient l'élève, on récupère tout le projet 
-                if (line.Contains(eleve.ToString()))
+                if (line.Contains(obj.ToString()))
                 {
-                    file.WriteLine("*==");
+                    peutEcrire = false;
+                    //Test
                     //Console.WriteLine("====== J'ai ! =======");
-                    while (!line.Contains("==*")) //Récupère la fin du projet (entre le moment où est écrit l'élève et *==
+
+                    //file.WriteLine("*==");//Début d'un projet
+
+                    //Récupère le début du projet (entre *== et le moment où est écrit l'élève
+                    file.WriteLine(lineTemp);
+
+                    //Récupère la fin du projet (entre le moment où est écrit l'élève et ==*
+                    while (!line.Contains("==*")) 
                     {
                         file.WriteLine(line);
                         line = monStreamReader.ReadLine();
                     }
-                    file.WriteLine("==*");
+                    
+                    file.WriteLine("==*");//Fin d'un projet
+
+                    lineTemp = string.Empty; //On vide la variable temporaire pour la prochaine boucle
                 }
+
+                //Détection du début d'un projet et autorisation de copier les premières lignes
+                if (line.Contains("*=="))
+                    peutEcrire = true;
+                if (peutEcrire)
+                    lineTemp += line + "\n";
+
+                //Passage à la ligne suivante
                 line = monStreamReader.ReadLine();
             }
 
+            return RecupResulRech(); //doit retourner un string (=résultat de la rechercher) qu'il faut afficher 
         }
+
+        //Reste à faire : FAIT JUSTE EN DESSOUS
+        //transférer le contenu du fichier ResultRech dans une variable string pour pouvoir l'afficher 
+        // + vider le fichier ResulRech quand on a fini de l'utiliser
+
+        public string RecupResulRech()
+        {
+            string recupResultat = string.Empty;
+
+            Encoding encoding = Encoding.GetEncoding("iso-8859-1");
+            StreamReader monStreamReader = new StreamReader("../../../../ResultRech.txt", encoding);
+
+            string line = monStreamReader.ReadLine();
+
+            while (line != null)
+            {
+                recupResultat += line;
+            }
+
+            return recupResultat;
+        }
+
+        
 
         
 

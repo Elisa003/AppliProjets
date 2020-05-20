@@ -29,7 +29,7 @@ namespace AppliProjets
 
             //J'ai inventé un transpromo alors qu'en fait c'est mon transdi mais c'est pas grave mdr
             Transpromo transp = new Transpromo(gay, paf, 2019, new DateTime(2019, 9, 12), suj, 6);
-            transp.AjouterEleve(moi);//Peut-être à rajouter dans le constructeur du transpromo ou de Projet ?
+            transp.AjouterEleve(moi);
             transp.AjouterEleve(toi);
 
             IntroProg prog = new IntroProg(2020, date, suj);
@@ -38,7 +38,7 @@ namespace AppliProjets
             ProjetFinEtudes pfe = new ProjetFinEtudes(paf, 2021, date, suj);
             pfe.AjouterEleve(moi);
             pfe.AjouterLivrable(site);
-            Transdisciplinaire transdi = new Transdisciplinaire(gay, paf, 2022, date, suj);
+            Transdisciplinaire transdi = new Transdisciplinaire(gay, paf, 2022, date, suj,6);
             transdi.AjouterEleve(moi);
             transdi.AjouterEleve(toi);
             transdi.AjouterLivrable(code);
@@ -48,10 +48,11 @@ namespace AppliProjets
             Console.WriteLine(pfe.ToString());
             Console.WriteLine(transdi.ToString());
 
-            //transp.SauvegardeProjet();
-            //prog.SauvegardeProjet();
+            transp.SauvegardeProjet();
+            prog.SauvegardeProjet();
 
-            transp.RechercheParEleve(moi);
+            transp.RecherchePar(moi);
+
 
             Console.ReadLine();
         }
