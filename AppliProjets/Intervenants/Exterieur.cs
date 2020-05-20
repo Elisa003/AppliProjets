@@ -17,7 +17,7 @@ namespace AppliProjets
         }
         public override string ToString()
         {
-            string res = "Exterieur = ";
+            string res = "Exterieur --> ";
             res += "Nom : " + nom;
             res += ", Prenom : " + prenom;
             res += ", Email : " + email;

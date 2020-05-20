@@ -16,7 +16,7 @@ namespace AppliProjets
 
         public override string ToString()
         {
-            string res = "CodeSource = ";
+            string res = "CodeSource --> ";
             res += "Nom : " + nom;
             res += ", Langage : " + langage;
 

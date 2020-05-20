@@ -15,9 +15,10 @@ namespace AppliProjets
             this.nomMatiere = nomMatiere;
         }
 
+
         public override string ToString()
         {
-            string res = "Matiere = ";
+            string res = "Matiere --> ";
             res += "CodeMatiere : " + codeMatiere;
             res += "NomMatiere : " + nomMatiere;
             return res;

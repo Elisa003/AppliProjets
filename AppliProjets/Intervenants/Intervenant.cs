@@ -6,9 +6,9 @@ namespace AppliProjets
 {
     public abstract class Intervenant: IEditable
     {
-        protected String nom;
-        protected String prenom;
-        protected String email;
+        internal String nom;
+        internal String prenom;
+        internal String email;
 
 
 

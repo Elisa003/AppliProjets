@@ -16,7 +16,7 @@ namespace AppliProjets
 
         public override string ToString()
         {
-            string res = "SiteWeb = ";
+            string res = "SiteWeb --> ";
             res += "Nom : " + nom;
             res += ", Url : " + url;
 

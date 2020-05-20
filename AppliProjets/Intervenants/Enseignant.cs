@@ -18,7 +18,7 @@ namespace AppliProjets
 
         public override string ToString()
         {
-            string res = "Enseignant = ";
+            string res = "Enseignant --> ";
             res += "Nom : " + nom;
             res += ", Prenom : " + prenom;
             res += ", Email : " + email;
@@ -28,7 +28,7 @@ namespace AppliProjets
             {
                 res += mat.codeMatiere + " " + mat.nomMatiere + ", ";
             }
-            return res;
+            return res.Substring(0, res.Length-2);
         }
 
         public override void Ajouter(object obj)

@@ -14,6 +14,7 @@ namespace AppliProjets
             this.nbreEtudiants = 2;
             this.promo = Promo.premiereAnnee;
             this.sujet = suj;
+
             this.livrables = new List<Livrable>(); //faire en sorte d'ajouter les livrables ici parce que
             //c'est toujours les mêmes ?
 
@@ -25,21 +26,30 @@ namespace AppliProjets
 
         public override string ToString()
         {
-            string res = "Projet IntroProg = ";
+            string res = "      Projet IntroProg = ";
             res += ", \nDuree : " + this.duree.ToString();
             res += ", \nAnneeScolaire : " + this.anneeScolaire.ToString();
             res += ", \nDateDebut : " + this.dateDebut.ToString();
             res += ", \nPromo : " + this.promo.ToString();
-            res += ", \nSujet : " + this.sujet.ToString();
+            res += ", \n" + this.sujet.ToString();
             res += ", \nNbreEtudiants : " + this.nbreEtudiants.ToString();
             res += ", \n";
             foreach (Eleve elv in etudiants)
             {
                 res += elv.ToString() + "\n";
             }
+            if (etudiants.Count < nbreEtudiants)
+            { 
+                res += "+ " + (nbreEtudiants - etudiants.Count) + " autres (informations manquantes)\n"; 
+            }
+            foreach (Livrable livr in livrables)
+            {
+                res += livr.ToString() + "\n";
+            }
 
             return res;
         }
+
 
 
         public override void Ajouter(object obj)

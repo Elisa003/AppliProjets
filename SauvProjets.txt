@@ -1,0 +1,24 @@
+==*Projet Transpromo = Client : Exterieur --> Nom : Gay, Prenom : Roland, Email : roland.gay@gmail.com, Organisation : AVEUGLE, 
+Tuteur : Enseignant --> Nom : Favier, Prenom : Pierre-Alexandre, Email : paf@ensc.fr, MatiereEnseignee : C0005INFO Informatique, 
+Duree : 120, 
+AnneeScolaire : 2019, 
+DateDebut : 12/09/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 6, 
+Eleve --> Nom : Guerin, Prenom : Elisa, Email : elisa@ensc.fr, Promo : 2022
+Eleve --> Nom : Thomas, Prenom : Enora, Email : enthomas@encs.fr, Promo : 2002
++ 4 autres (informations manquantes)
+*==
+==*      Projet IntroProg = , 
+Duree : 90, 
+AnneeScolaire : 2020, 
+DateDebut : 20/05/2020 11:39:45, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
+Eleve --> Nom : Guerin, Prenom : Elisa, Email : elisa@ensc.fr, Promo : 2022
+Eleve --> Nom : Thomas, Prenom : Enora, Email : enthomas@encs.fr, Promo : 2002
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+*==

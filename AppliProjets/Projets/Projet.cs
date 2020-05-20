@@ -12,8 +12,11 @@ namespace AppliProjets
         protected int anneeScolaire;
         protected DateTime dateDebut;
         protected int nbreEtudiants;
-        protected List<Eleve> etudiants = new List<Eleve>(); //Program.cs ne fonctionne pas avec le get et 
-        //le set mais avec cette ligne-là oui... mystère
+
+        //Program.cs ne fonctionne pas avec le get et le set mais avec cette ligne-là oui... mystère
+        protected List<Eleve> etudiants = new List<Eleve>();
+        protected List<Livrable> livrables = new List<Livrable>();
+        protected List<Matiere> matieres = new List<Matiere>();
         public Promo promo
         {
             get => default;
@@ -29,26 +32,25 @@ namespace AppliProjets
         //    get { return new List<Eleve>(); }
         //    set { }
         //}
-        public List<Matiere> matieres
-        {
-            get => default;
-            set { }
-        }
-        public List<Livrable> livrables
-        {
-            get { return new List<Livrable>(); }
-            set { }
-        }
+        //public List<Matiere> matieres
+        //{
+        //    get { return new List<Matiere>(); }
+        //    set { }
+        //}
+        //public List<Livrable> livrables
+        //{
+        //    get { return new List<Livrable>(); }
+        //    set { }
+        //}
 
 
-        public static void SauvegardeProjet(string fichier_cible, Projet proj)
+        public void SauvegardeProjet()
         {
             try
             {
-                //Création d'une instance de StreamWritter pour permettre l'écriture dans notre fichier cible
-                StreamWriter monStreamWritter = File.CreateText(fichier_cible);
-
-
+                //Ecrit à la suite du fichier
+                using System.IO.StreamWriter file = new System.IO.StreamWriter("../../../../SauvProjets.txt", true);
+                file.WriteLine("*==" + this.ToString() + "==*");
             }
             catch (Exception ex)
             {
@@ -58,15 +60,42 @@ namespace AppliProjets
 
         }
 
+        public void RechercheParEleve(Eleve eleve)
+        {
+            Encoding encoding = Encoding.GetEncoding("iso-8859-1");
+            StreamReader monStreamReader = new StreamReader("../../../../SauvProjets.txt", encoding);
 
+            using StreamWriter file = new StreamWriter("../../../../ResultRech.txt", true);
+
+            string line = monStreamReader.ReadLine();
+
+            //Lecture de chaque ligne
+            while(line != null)
+            {
+                //Si la ligne contient l'élève, on récupère tout le projet 
+                if (line.Contains(eleve.ToString()))
+                {
+                    file.WriteLine("*==");
+                    //Console.WriteLine("====== J'ai ! =======");
+                    while (!line.Contains("==*")) //Récupère la fin du projet (entre le moment où est écrit l'élève et *==
+                    {
+                        file.WriteLine(line);
+                        line = monStreamReader.ReadLine();
+                    }
+                    file.WriteLine("==*");
+                }
+                line = monStreamReader.ReadLine();
+            }
+
+        }
+
+        
 
         //Méthodes à appeler dans chaque sous-projet (dans le constructeur ?)
         public void AjouterEleve(params Eleve[] eleves)
         {
             foreach (Eleve elv in eleves)
                 etudiants.Add(elv);
-            //for (int i = 0; i < eleves.Length; i++)
-            //  etudiants.Add(eleves[i]);
         }
         public void AjouterLivrable(params Livrable[] livs)
         {

@@ -31,12 +31,20 @@ namespace AppliProjets
             res += ", \nAnneeScolaire : " + this.anneeScolaire.ToString();
             res += ", \nDateDebut : " + this.dateDebut.ToString();
             res += ", \nPromo : " + this.promo.ToString();
-            res += ", \nSujet : " + this.sujet.ToString();
+            res += ", \n" + this.sujet.ToString();
             res += ", \nNbreEtudiants : " + this.nbreEtudiants.ToString();
             res += ", \n";
             foreach(Eleve elv in etudiants)
             {
                 res += elv.ToString() + "\n";
+            }
+            if (etudiants.Count < nbreEtudiants)
+            { 
+                res += "+ " + (nbreEtudiants - etudiants.Count) + " autres (informations manquantes)\n";
+            }
+            foreach (Livrable livr in livrables)
+            {
+                res += livr.ToString() + "\n";
             }
 
             return res;

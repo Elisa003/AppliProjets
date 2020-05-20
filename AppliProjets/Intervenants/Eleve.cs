@@ -19,7 +19,7 @@ namespace AppliProjets
 
         public override string ToString()
         {
-            string res = "Eleve = "; 
+            string res = "Eleve --> "; 
             res += "Nom : " + nom;
             res += ", Prenom : " + prenom;
             res += ", Email : " + email;

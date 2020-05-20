@@ -16,7 +16,7 @@ namespace AppliProjets
 
         public override string ToString()
         {
-            string res = "Soutenance = ";
+            string res = "Soutenance --> ";
             res += "Nom : " + nom;
             res += ", Duree : " + duree;
 

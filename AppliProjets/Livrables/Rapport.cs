@@ -15,7 +15,7 @@ namespace AppliProjets
         }
         public override string ToString()
         {
-            string res = "Rapport = ";
+            string res = "Rapport --> ";
             res += "Nom : " + nom;
             res += ", NbPagesMax : " + nbPagesMax;
 

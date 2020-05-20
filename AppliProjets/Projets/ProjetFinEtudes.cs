@@ -27,11 +27,14 @@ namespace AppliProjets
             res += ", \nAnneeScolaire : " + this.anneeScolaire.ToString();
             res += ", \nDateDebut : " + this.dateDebut.ToString();
             res += ", \nPromo : " + this.promo.ToString();
-            res += ", \nSujet : " + this.sujet.ToString();
+            res += ", \n" + this.sujet.ToString();
             res += ", \nNbreEtudiants : " + this.nbreEtudiants.ToString();
             res += ", \n";
-            res += etudiants[1].ToString() + "\n"; //vu qu'il y a qu'un seul étudiant je pense que ça suffit
-
+            res += etudiants[0].ToString() + "\n"; //vu qu'il y a qu'un seul étudiant je pense que ça suffit
+            foreach (Livrable livr in livrables)
+            {
+                res += livr.ToString() + "\n";
+            }
             return res;
         }
 

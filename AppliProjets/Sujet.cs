@@ -19,7 +19,7 @@ namespace AppliProjets
 
         public override string ToString()
         {
-            string res = "Sujet = ";
+            string res = "Sujet --> ";
             res += "Intitule : " + intitule;
             res += ", Impose : " + impose;
 
