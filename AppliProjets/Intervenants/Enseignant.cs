@@ -15,6 +15,12 @@ namespace AppliProjets
             this.email = email;
             this.matiereEnseignee = matiereEnseignee;
         }
+        public Enseignant(string nom, string prenom, string email)
+        {
+            this.nom = nom;
+            this.prenom = prenom;
+            this.email = email;
+        }
 
         public override string ToString()
         {

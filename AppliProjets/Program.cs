@@ -8,8 +8,16 @@ namespace AppliProjets
     {
         static void Main(string[] args)
         {
+
+
+            ////////////////////
+            Interface.LancerInterface();
+
+            Environment.Exit(0);
+            /*Catalogue catalogue = new Catalogue(4);
+
             Exterieur gay = new Exterieur("Gay", "Roland", "roland.gay@gmail.com", "AVEUGLE");
-            
+
             List<Matiere> matrs = new List<Matiere>();
             Matiere info = new Matiere("C0005INFO", "Informatique");
             matrs.Add(info);
@@ -27,7 +35,6 @@ namespace AppliProjets
 
             Sujet suj = new Sujet("Faire nager les aveugles", false);
 
-            //J'ai inventé un transpromo alors qu'en fait c'est mon transdi mais c'est pas grave mdr
             Transpromo transp = new Transpromo(gay, paf, 2019, new DateTime(2019, 9, 12), suj, 6);
             transp.AjouterEleve(moi);
             transp.AjouterEleve(toi);
@@ -38,23 +45,24 @@ namespace AppliProjets
             ProjetFinEtudes pfe = new ProjetFinEtudes(paf, 2021, date, suj);
             pfe.AjouterEleve(moi);
             pfe.AjouterLivrable(site);
-            Transdisciplinaire transdi = new Transdisciplinaire(gay, paf, 2022, date, suj,6);
+            Transdisciplinaire transdi = new Transdisciplinaire(gay, paf, 2022, date, suj, 6);
             transdi.AjouterEleve(moi);
             transdi.AjouterEleve(toi);
             transdi.AjouterLivrable(code);
 
-            Console.WriteLine(transp.ToString());
-            Console.WriteLine(prog.ToString());
-            Console.WriteLine(pfe.ToString());
-            Console.WriteLine(transdi.ToString());
+            transp.SupprFichier("SauvProjets.txt");
+            Console.WriteLine(catalogue.AjouterProjet(transp));
+            Console.WriteLine(catalogue.AjouterProjet(prog));
+            Console.WriteLine(catalogue.AjouterProjet(pfe));
+            Console.WriteLine(catalogue.AjouterProjet(transdi));
 
-            transp.SauvegardeProjet();
-            prog.SauvegardeProjet();
-
-            transp.RecherchePar(moi);
+            Projet[] projets = catalogue.Liste();
 
 
-            Console.ReadLine();
+
+    */
+
+
         }
     }
 }

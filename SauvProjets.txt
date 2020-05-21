@@ -1,0 +1,648 @@
+*==
+      Projet Transdisciplinaire = 
+Client : Exterieur --> Nom : Gay, Prenom : Roland, Email : roland.gay@gmail.com, Organisation : AVEUGLE, 
+Tuteur : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Duree : 240, 
+AnneeScolaire : 2019, 
+DateDebut : 20/09/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 6, 
++ 6 autres (informations manquantes)
+
+==*
+
+*==
+      Projet Transpromo = 
+Client : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Tuteur : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Duree : 120, 
+AnneeScolaire : 2019, 
+DateDebut : 10/09/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 6, 
+Eleve --> Nom : Guerin, Prenom : Elisa, Email : elisa@ensc.fr, Promo : 2022
+Eleve --> Nom : Ndiaye, Prenom : Mariam, Email : mndiaye@encs.fr, Promo : 2022
++ 4 autres (informations manquantes)
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet Transdisciplinaire = 
+Client : Exterieur --> Nom : Gay, Prenom : Roland, Email : roland.gay@gmail.com, Organisation : AVEUGLE, 
+Tuteur : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Duree : 240, 
+AnneeScolaire : 2019, 
+DateDebut : 20/09/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 6, 
++ 6 autres (informations manquantes)
+
+==*
+
+*==
+      Projet Transpromo = 
+Client : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Tuteur : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Duree : 120, 
+AnneeScolaire : 2019, 
+DateDebut : 10/09/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 6, 
+Eleve --> Nom : Guerin, Prenom : Elisa, Email : elisa@ensc.fr, Promo : 2022
+Eleve --> Nom : Ndiaye, Prenom : Mariam, Email : mndiaye@encs.fr, Promo : 2022
++ 4 autres (informations manquantes)
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet Transdisciplinaire = 
+Client : Exterieur --> Nom : Gay, Prenom : Roland, Email : roland.gay@gmail.com, Organisation : AVEUGLE, 
+Tuteur : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Duree : 240, 
+AnneeScolaire : 2019, 
+DateDebut : 20/09/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 6, 
++ 6 autres (informations manquantes)
+
+==*
+
+*==
+      Projet Transpromo = 
+Client : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Tuteur : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Duree : 120, 
+AnneeScolaire : 2019, 
+DateDebut : 10/09/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 6, 
+Eleve --> Nom : Guerin, Prenom : Elisa, Email : elisa@ensc.fr, Promo : 2022
+Eleve --> Nom : Ndiaye, Prenom : Mariam, Email : mndiaye@encs.fr, Promo : 2022
++ 4 autres (informations manquantes)
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet Transdisciplinaire = 
+Client : Exterieur --> Nom : Gay, Prenom : Roland, Email : roland.gay@gmail.com, Organisation : AVEUGLE, 
+Tuteur : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Duree : 240, 
+AnneeScolaire : 2019, 
+DateDebut : 20/09/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 6, 
++ 6 autres (informations manquantes)
+
+==*
+
+*==
+      Projet Transpromo = 
+Client : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Tuteur : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Duree : 120, 
+AnneeScolaire : 2019, 
+DateDebut : 10/09/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 6, 
+Eleve --> Nom : Guerin, Prenom : Elisa, Email : elisa@ensc.fr, Promo : 2022
+Eleve --> Nom : Ndiaye, Prenom : Mariam, Email : mndiaye@encs.fr, Promo : 2022
++ 4 autres (informations manquantes)
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet Transdisciplinaire = 
+Client : Exterieur --> Nom : Gay, Prenom : Roland, Email : roland.gay@gmail.com, Organisation : AVEUGLE, 
+Tuteur : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Duree : 240, 
+AnneeScolaire : 2019, 
+DateDebut : 20/09/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 6, 
++ 6 autres (informations manquantes)
+
+==*
+
+*==
+      Projet Transpromo = 
+Client : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Tuteur : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Duree : 120, 
+AnneeScolaire : 2019, 
+DateDebut : 10/09/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 6, 
+Eleve --> Nom : Guerin, Prenom : Elisa, Email : elisa@ensc.fr, Promo : 2022
+Eleve --> Nom : Ndiaye, Prenom : Mariam, Email : mndiaye@encs.fr, Promo : 2022
++ 4 autres (informations manquantes)
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet Transdisciplinaire = 
+Client : Exterieur --> Nom : Gay, Prenom : Roland, Email : roland.gay@gmail.com, Organisation : AVEUGLE, 
+Tuteur : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Duree : 240, 
+AnneeScolaire : 2019, 
+DateDebut : 20/09/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 6, 
++ 6 autres (informations manquantes)
+
+==*
+
+*==
+      Projet Transpromo = 
+Client : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Tuteur : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Duree : 120, 
+AnneeScolaire : 2019, 
+DateDebut : 10/09/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 6, 
+Eleve --> Nom : Guerin, Prenom : Elisa, Email : elisa@ensc.fr, Promo : 2022
+Eleve --> Nom : Ndiaye, Prenom : Mariam, Email : mndiaye@encs.fr, Promo : 2022
++ 4 autres (informations manquantes)
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet Transdisciplinaire = 
+Client : Exterieur --> Nom : Gay, Prenom : Roland, Email : roland.gay@gmail.com, Organisation : AVEUGLE, 
+Tuteur : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Duree : 240, 
+AnneeScolaire : 2019, 
+DateDebut : 20/09/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 6, 
++ 6 autres (informations manquantes)
+
+==*
+
+*==
+      Projet Transpromo = 
+Client : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Tuteur : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Duree : 120, 
+AnneeScolaire : 2019, 
+DateDebut : 10/09/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 6, 
+Eleve --> Nom : Guerin, Prenom : Elisa, Email : elisa@ensc.fr, Promo : 2022
+Eleve --> Nom : Ndiaye, Prenom : Mariam, Email : mndiaye@encs.fr, Promo : 2022
++ 4 autres (informations manquantes)
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet Transdisciplinaire = 
+Client : Exterieur --> Nom : Gay, Prenom : Roland, Email : roland.gay@gmail.com, Organisation : AVEUGLE, 
+Tuteur : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Duree : 240, 
+AnneeScolaire : 2019, 
+DateDebut : 20/09/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 6, 
++ 6 autres (informations manquantes)
+
+==*
+
+*==
+      Projet Transpromo = 
+Client : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Tuteur : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Duree : 120, 
+AnneeScolaire : 2019, 
+DateDebut : 10/09/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 6, 
+Eleve --> Nom : Guerin, Prenom : Elisa, Email : elisa@ensc.fr, Promo : 2022
+Eleve --> Nom : Ndiaye, Prenom : Mariam, Email : mndiaye@encs.fr, Promo : 2022
++ 4 autres (informations manquantes)
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet Transdisciplinaire = 
+Client : Exterieur --> Nom : Gay, Prenom : Roland, Email : roland.gay@gmail.com, Organisation : AVEUGLE, 
+Tuteur : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Duree : 240, 
+AnneeScolaire : 2019, 
+DateDebut : 20/09/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 6, 
++ 6 autres (informations manquantes)
+
+==*
+
+*==
+      Projet Transpromo = 
+Client : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Tuteur : Enseignant --> Nom : Semal, Prenom : Catherine, Email : csemal@ensc.fr, MatiereEnseignee : CO5PRTD0 Projets transdisciplinaires de l'ENSC, 
+Duree : 120, 
+AnneeScolaire : 2019, 
+DateDebut : 10/09/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 6, 
+Eleve --> Nom : Guerin, Prenom : Elisa, Email : elisa@ensc.fr, Promo : 2022
+Eleve --> Nom : Ndiaye, Prenom : Mariam, Email : mndiaye@encs.fr, Promo : 2022
++ 4 autres (informations manquantes)
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
+*==
+      Projet IntroProg = 
+Duree : 90, 
+AnneeScolaire : 2019, 
+DateDebut : 10/11/2019 00:00:00, 
+Promo : premiereAnnee, 
+Sujet --> Intitule : , Impose : False, 
+NbreEtudiants : 2, 
++ 2 autres (informations manquantes)
+Rapport --> Nom : Rapport IntroProg, NbPagesMax : 30
+CodeSource --> Nom : Projet, Langage : C#
+
+==*
+
